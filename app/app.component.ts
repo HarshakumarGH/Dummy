@@ -17,7 +17,7 @@ export class MyApp {
   currentPageIndex: number = 1;
 
   @ViewChild('content') content: NavController;
-  @ViewChild(Menu) menu: Menu;
+  @ViewChild(Menu) menu: Menu;   
 
   pages = [
     { title: 'Home', component: PageOne },
